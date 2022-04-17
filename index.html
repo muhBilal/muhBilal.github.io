@@ -20,7 +20,7 @@
 <body class="bg-body text-white font-poppins pb-12 scrollbar" id="style-11">
     <!-- header -->
 
-    <div class="mb-10 relative">
+    <div class="mb-0 md:mb-10 relative">
         <div class="antialiased dark-mode:bg-gray-900">
             <div class="w-full text-white dark-mode:text-gray-200 dark-mode:bg-gray-800">
                 <div x-data="{ open: false }"
@@ -58,7 +58,7 @@
     </div>
 
     <div class="container flex justify-between items-center mx-auto">
-        <div class="flex flex-wrap md:flex-nowrap">
+        <div class="flex flex-wrap-reverse md:flex-nowrap">
             <nav class="inline-block lg:mr-24 lg:w-4 fixed left-precentage hidden xl:block">
                 <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-20 ml-8">
                     <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
@@ -78,7 +78,7 @@
 
             <div class="relative flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
                 <div class="circle w-1/2 h-1/2 max-w-2xl rounded-full absolute z-1"></div>
-                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building <br> Beautifull
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left mt-10 md:mt-0">Building <br> Beautifull
                     web experiences.</h1>
                 <button class="px-8 py-2 bg-theme text-white font-bold mt-12 items-center flex gap-x-2">
                     <span>My Projects.</span>
@@ -91,13 +91,14 @@
                     </div>
                 </button>
             </div>
-            <img src="public/img/profile.png" class="block md:hidden w-full md:w-1/2 md:h-2/5 mt-8">
+            <!-- mobile -->
+            <img src="public/img/profile.webp" class="block md:hidden w-full md:w-1/2 md:h-2/5">
         </div>
-        <img src="public/img/profile.png" class="hidden md:block w-full md:w-1/2 md:h-2/5 mt-8">
+        <img src="public/img/profile.webp" class="hidden md:block w-full md:w-1/2 md:h-2/5 mt-8">
     </div>
 
-    <!-- work -->
-    <div class="container relative mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <!-- project -->
+    <div class="container relative mt-20 md:mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <section class="w-full">
             <div class="hidden md:block circle circle-2 absolute z-1"></div>
             <h2 class="secondary-title" id="project">My Projects</h2>
@@ -107,7 +108,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/besmarLanding.png" alt="image" class="w-full" />
+                        <img src="public/img/besmarLanding.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -142,7 +143,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/bimbel.png" alt="image" class="w-full" />
+                        <img src="public/img/bimbel.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -175,7 +176,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/coffeeShop.png" alt="image" class="w-full" />
+                        <img src="public/img/coffeeShop.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -207,7 +208,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/dashboardTrading.png" alt="image" class="w-full" />
+                        <img src="public/img/dashboardTrading.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -239,7 +240,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/heyevents.png" alt="image" class="w-full" />
+                        <img src="public/img/heyevents.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -274,7 +275,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/besmartAndroid.png" alt="image" class="w-full shadow-xl" />
+                        <img src="public/img/besmartAndroid.webp" alt="image" class="w-full shadow-xl" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -310,7 +311,7 @@
 
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/lelangcengkeh.png" alt="image" class="w-full shadow-xl" />
+                        <img src="public/img/lelangcengkeh.webp" alt="image" class="w-full shadow-xl" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -351,7 +352,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6   ">
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/covid.png" alt="image" class="w-full" />
+                        <img src="public/img/covid.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -383,7 +384,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/titanic.jpeg" alt="image" class="w-full" />
+                        <img src="public/img/titanic.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -416,7 +417,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/trace.jpg" alt="image" class="w-full" />
+                        <img src="public/img/trace.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -448,7 +449,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/ascii.png" alt="image" class="w-full" />
+                        <img src="public/img/ascii.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -480,7 +481,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/kidney.jpg" alt="image" class="w-full" />
+                        <img src="public/img/kidney.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -514,7 +515,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/nilai.png" alt="image" class="w-full" />
+                        <img src="public/img/nilai.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -546,7 +547,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/nilai.png" alt="image" class="w-full" />
+                        <img src="public/img/nilai.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -597,10 +598,10 @@
                                 </a>
                             </h3>
                             <p class="text-base text-body-color leading-relaxed mb-5">
-                                I will predict what kind of flowers are included  
+                                I have created a program to determine the type of iris using SVM and I got a score <b>test of 97% and train 99%.</b>     
                             </p>
                             <div class="flex justify-center">
-                                <a href="#"
+                                <a href="https://colab.research.google.com/drive/1TKNmWY_1IYWBm7HnIzTHKhV6I8aaQgSr#scrollTo=tRwP9vcgF7eK"
                                     target="_blank"
                                     class="px-3 py-1.5 transition transform motion-reduce:transition-none motion-reduce:hover:transform-none hover:-translate-y-1 rounded-full border border-black font-medium text-sm  hover:scale-110  hover:bg-theme hover:border-theme hover:text-white ">View
                                     Project</a>
@@ -610,7 +611,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/wheater.png" alt="image" class="w-full" />
+                        <img src="public/img/wheater.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -642,7 +643,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/pinguin.png" alt="image" class="w-full" />
+                        <img src="public/img/pinguin.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -674,7 +675,7 @@
                 </div>
                 <div class="w-full px-4 text-black">
                     <div class="bg-white rounded-lg overflow-hidden mb-10">
-                        <img src="public/img/boston.jpeg" alt="image" class="w-full" />
+                        <img src="public/img/boston.webp" alt="image" class="w-full" />
                         <div class="p-8">
                             <h3>
                                 <a href="javascript:void(0)" class="
@@ -711,7 +712,7 @@
 
 
     <!-- Archievement -->
-    <div class="container relative mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <div class="container relative mt-10 md:mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <section class="w-full">
             <div class="circle circle-3 hidden md:block absolute z-1"></div>
             <h2 class="secondary-title" id="archievement">Archievement</h2>
@@ -719,10 +720,10 @@
 
             <!-- archievement logo -->
             <div class="space-y-12 my-16">
-                <div class="w-full flex flex-wrap border p-16 lg:px-32 lg:py-20 lg:space-x-32 bg-body">
+                <div class="w-full flex flex-col md:flex-row border p-16 lg:px-32 lg:py-20 lg:space-x-32 bg-body">
                     <!-- archievement logo -->
                     <div class="mb-6 lg-mb-0">
-                        <img src="public/img/lks.png" alt="">
+                        <img src="public/img/lks.webp" alt="">
                     </div>
                     <!-- archievement info -->
                     <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
@@ -737,10 +738,10 @@
                 </div>
             </div>
             <div class="space-y-12 my-16">
-                <div class="w-full flex flex-wrap border p-16 lg:px-32 lg:py-20 lg:space-x-32 bg-body">
+                <div class="w-full flex flex-col md:flex-row border p-16 lg:px-32 lg:py-20 lg:space-x-32 bg-body">
                     <!-- archievement logo -->
                     <div class="mb-6 lg-mb-0 w-full md:w-1/2">
-                        <img src="public/img/dinacom.jpg">
+                        <img src="public/img/dinacom.webp">
                     </div>
                     <!-- archievement info -->
                     <div class="w-full flex flex-wrap justify-center text-center lg:text-left lg:block">
@@ -832,6 +833,15 @@
             </div>
         </section>
     </div>
+
+    <!-- back -->
+    <!-- <div class="fixed bottom-0 right-0">
+        <a href="#" class="bg-theme rounded-full w-10 h-10 ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up bg-theme w-10 h-10 rounded-full p-2 m-3" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg>
+        </a>
+    </div> -->
 
     <script src="public/js/main.js"></script>
 </body>
